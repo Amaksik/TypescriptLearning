@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+
+</head>
+
+
+
+
+<body>
+
+<div class="d-flex f-column wrapper">
+
+    <div id="values">
+        <p>Card Value</p>
+        <div class="d-flex" style="flex-direction: row; justify-content: space-around;">
+
+            <div class="column">
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(1)">
+                    <label for="A">A</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(2)">
+                    <label for="A">2</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(3)">
+                    <label for="A">3</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(4)">
+                    <label for="A">4</label>
+                </div>
+            </div>
+
+            <div class="column">
+                
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(5)">
+                    <label for="A">5</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(6)">
+                    <label for="A">6</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(7)">
+                    <label for="A">7</label>
+                </div>
+            </div>
+
+            <div class="column">
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(8)">
+                    <label for="A">8</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(9)">
+                    <label for="A">9</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(10)">
+                    <label for="A">10</label>
+                </div>
+            </div>
+
+            <div class="column">
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(11)">
+                    <label for="A">J</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(12)">
+                    <label for="A">Q</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="A" onclick="SetValue(13)">
+                    <label for="A">K</label>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <div id="suits" class="d-flex f-column">
+        <p>Card Suit</p>
+
+        <div class="d-flex" style="flex-direction: row; justify-content: space-around;">
+        
+        <div>
+            <input type="checkbox" id="spades" onclick="FindPosition(1)" >
+            <label for="spades">♠</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hearts" onclick="FindPosition(2)" >
+            <label for="hearts">♥</label>
+        </div>
+        <div>
+            <input type="checkbox" id="clubs" onclick="FindPosition(3)" >
+            <label for="clubs">♣</label>
+        </div >
+        <div>
+            <input type="checkbox" id="dimaonds" onclick="FindPosition(4)" >
+            <label for="dimaonds">♦</label>
+        </div>
+        
+        </div>
+        
+
+
+
+    </div>
+        
+    <div id="position">
+
+        <p>Position</p>
+        <p id="resultfield"></p>
+        
+    </div>
+
+
+</div>
+
+<script src="scripts/hello.ts"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,23 @@
+.d-flex{
+    display: flex;
+}
+.f-column{
+    flex-direction: column;
+}
+.i-block {
+    display: inline-block;
+  }
+
+
+.wrapper{
+    margin: auto;
+    width: 100%;
+}
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}

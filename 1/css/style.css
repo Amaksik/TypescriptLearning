@@ -1,0 +1,26 @@
+
+
+.d-flex{
+    display: flex;
+}
+.f-column{
+    flex-direction: column;
+}
+
+.wrapper{
+    margin: auto;
+}
+.buttons{
+    flex-direction: column;
+    width: 20%;
+    background-color: antiquewhite;
+}
+.counter{
+    width: auto;
+    min-width: 100px;
+    background-color: antiquewhite;
+    justify-content: center;
+    text-align: center;
+    
+    font-size: 50px;
+}
